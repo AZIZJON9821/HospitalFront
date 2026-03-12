@@ -1,0 +1,88 @@
+﻿
+> frontend@0.1.0 build
+> next build
+
+node.exe : тЪа Warning:
+ Next.js inferred your 
+workspace root, but it 
+may not be correct.
+C:\Program Files\nodejs
+\npm.ps1:29 знак:3
++   & $NODE_EXE $NPM_CL
+I_JS $args
++   ~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (тЪа Warning:    
+ Ne...not be correc    
+t.:String) [], Rem    o
+teException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+ We detected multiple l
+ockfiles and selected t
+he directory of C:\User
+s\Asus\package-lock.jso
+n as the root directory
+.
+ To silence this warnin
+g, set `turbopack.root`
+ in your Next.js config
+, or consider removing 
+one of the lockfiles if
+ it's not needed.
+   See https://nextjs.o
+rg/docs/app/api-referen
+ce/config/next-config-j
+s/turbopack#root-direct
+ory for more informatio
+n.
+ Detected additional lo
+ckfiles: 
+   * C:\Users\Asus\Desk
+top\SHIFOXONA\online-sh
+ifoxona\frontend\packag
+e-lock.json
+
+тЦ▓ Next.js 16.1.6 (Turbopack)
+
+  Creating an optimized production build ...
+тЬУ Compiled successfully in 7.3s
+  Running TypeScript ...
+Failed to compile.
+
+./src/app/(public)/regi
+ster/page.tsx:29:25
+Type error: Cannot find
+ name 'useAuthStore'.
+
+[0m [90m 27 |[39m   
+  [36mconst[39m [load
+ing[33m,[39m setLoadi
+ng] [33m=[39m useStat
+e([36mfalse[39m)[33m
+;[39m
+ [90m 28 |[39m     [
+36mconst[39m router [
+33m=[39m useRouter()[
+33m;[39m
+[31m[1m>[22m[39m[9
+0m 29 |[39m     [36mc
+onst[39m { setAuth } 
+[33m=[39m useAuthStore
+()[33m;[39m
+ [90m    |[39m       
+                  [31m
+[1m^[22m[39m
+ [90m 30 |[39m
+ [90m 31 |[39m     [
+36mconst[39m {
+ [90m 32 |[39m       
+  register[33m,[39m[
+0m
+Next.js build worker ex
+ited with code: 1 and s
+ignal: null
